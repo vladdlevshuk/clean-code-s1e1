@@ -130,7 +130,7 @@ body {
   vertical-align: middle;
 }
 
-.task-list__item > .task-item-checkbox {
+.task-list__item > .task-checkbox {
   margin: 0 10px;
 }
 
