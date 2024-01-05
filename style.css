@@ -53,11 +53,11 @@ body {
 }
 
 .task-input,
-.button {
+.btn {
   outline: none;
 }
 
-.button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +67,7 @@ body {
   cursor: pointer;
 }
 
-.button:hover {
+.btn:hover {
   color: #3a3A3a;
 }
 
@@ -140,13 +140,13 @@ body {
   width: 226px;
 }
 
-.task-button-delete .button-remove__image {
+.task-btn-delete .btn-remove__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.task-button-delete .button-remove__image:hover {
+.task-btn-delete .btn-remove__image:hover {
   transform: rotateZ(0);
 }
 
