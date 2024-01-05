@@ -4,47 +4,57 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .matrix-content {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .matrix-content__image {
   width: 100%;
 }
+
 .matrix-content__link {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .matrix-content {
     text-align: center;
   }
 }
+
 .tasks {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .new-task {
   display: flex;
 }
+
 .task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
+
 .task-list__item, .section-title {
-  list-style:none;
+  list-style: none;
 }
-.task-input, .button{
-  outline:none;
+
+.task-input, .button {
+  outline: none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -54,9 +64,11 @@ body {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .section-title,
 .tasks__add-title {
@@ -68,6 +80,7 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -80,6 +93,7 @@ body {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
@@ -89,6 +103,7 @@ body {
   display: block;
   margin: 0 0 20px;
 }
+
 .task-input.new-task {
   width: 318px;
 }
@@ -103,6 +118,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .task-list__item > * {
   vertical-align: middle;
 }
@@ -110,20 +126,24 @@ body {
 .task-list__item > .task-item-checkbox {
   margin: 0 10px;
 }
+
 .task-list__item > .task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-list__item > .task-input {
   width: 226px
 }
+
 .task-button-delete .button-remove__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task-button-delete .button-remove__image:hover {
   transform: rotateZ(0);
 }
@@ -136,14 +156,14 @@ body {
 
 /* Edit Task */
 .task-list .task-list__item .task-input {
-  display:none
+  display: none
 }
 
 .task-list .task-list__item.task-edit .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-list .task-list__item.task-edit .task-name {
-  display:none;
+  display: none;
 }
