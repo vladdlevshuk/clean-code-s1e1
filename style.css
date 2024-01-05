@@ -38,8 +38,13 @@ body {
   flex-grow: 1;
 }
 
+.task-input.edit {
+  flex-grow: 0;
+}
+
 .new-task {
   display: flex;
+  margin-top: 20px;
 }
 
 .task-list {
