@@ -18,8 +18,9 @@ body {
 }
 
 @media (max-width:768px) {
-.matrix-content { text-align: center;
-}
+  .matrix-content {
+    text-align: center;
+  }
 }
 .tasks {
   display: block;
